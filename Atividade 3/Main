@@ -109,6 +109,91 @@ $ git checkout two
 $ git cherry-pick C5 C4 C3 C2
 $ git branch -f three C2
 
+Seção 6: Push & Pull -- repositórios remotos no Git!
+
+1: Introdução à clonagem
+$git clone
+
+2: Branches remotas
+$ git commit
+$ git checkout o/main
+$ git commit
+
+3: Git Fetch
+$ git fetch
+
+4: Git Pull
+$ git pull
+
+5: Simulando trabalho em equipe
+$ git clone
+$ git fakeTeamwork 2
+$ git commit
+$ git pull
+
+6: Git Push
+$ git commit
+$ git commit
+$ git push
+
+7: Histórico divergente
+$ git clone
+$ git fakeTeamwork
+$ git commit
+$ git pull --rebase
+$ git push
+
+8: Main bloqueado
+$ git branch -f main o/main
+$ git checkout -b feature C2
+$ git push origin feature	
+
+Seção 7: Até a origin e além -- repositórios remotos avançados!
+
+1: Push Main!
+$ git fetch
+$ git rebase o/main side1
+$ git rebase side1 side2
+$ git rebase side2 side3
+$ git rebase side3 main
+$ git push
+
+2: Merge com remotos
+$ git checkout main
+$ git pull
+$ git merge side1
+$ git merge side2
+$ git merge side3
+$ git push
+
+3: Seguindo remotos
+$ git checkout -b side o/main
+$ git commit
+$ git pull --rebase
+$ git push
+
+4: Parâmetros do git push
+$ git push origin main
+$ git push origin foo
+
+5: Parâmetros do git push -- expandido
+$ git push origin main^:foo
+$ git push origin foo:main
+
+6: Parâmetros do fetch
+$ git fetch origin c3:foo
+$ git fetch origin c6:main
+$ git checkout foo
+$ git merge main
+
+7: Origem vazia
+$ git push origin :foo
+$ git fetch origin :bar
+
+8: Parâmetros do pull
+$ git pull origin c3:foo
+$ git pull origin c2:side
+
 
 
 
