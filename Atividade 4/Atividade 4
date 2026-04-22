@@ -1,1 +1,2 @@
-..
+git config --global user.name "Lucas Toffetti Cintra de Pinheiro"
+git config --global user.email "lucas.toffetti@aluno.ifsp.edu.br"
