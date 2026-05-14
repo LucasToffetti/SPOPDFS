@@ -1,0 +1,10 @@
+Live Server
+Prettier - Code formatter
+ESLint
+Auto Rename Tag
+Auto Close Tag
+HTML CSS Support
+JavaScript (ES6) code snippets
+Path Intellisense
+GitLens
+Material Icon Theme
